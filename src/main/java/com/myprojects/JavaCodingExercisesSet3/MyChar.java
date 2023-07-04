@@ -29,7 +29,7 @@ public class MyChar {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the character: ");
         char c = scanner.next().charAt(0);
-        System.out.println("Character introduced is digit: " + myChar.isDigit(c));
-        System.out.println("Character introduced is vowel: " + myChar.isVowel(c));
+        System.out.println("Character introduced is digit: " + c + " -> " + myChar.isDigit(c));
+        System.out.println("Character introduced is vowel: " + c + " -> " + myChar.isVowel(c));
     }
 }
